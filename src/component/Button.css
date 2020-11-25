@@ -1,0 +1,21 @@
+.btn-container{
+  border-bottom: 2px solid white;
+}
+
+.btn{
+  padding: 12px 0;
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: .5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.btn:hover{
+  padding: 12px 22px;
+  /* background-color: white; */
+}
