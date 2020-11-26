@@ -19,7 +19,7 @@
   color: white;
   display: flex;
   justify-content: flex-start;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
@@ -41,22 +41,21 @@
 .nav-links{
   color: white;
   opacity: .7;
-  letter-spacing: .5px;
+  letter-spacing: 1px;
   font-weight: 300;
+  font-size: 14px;
 }
-.nav-links.active{
+
+.active{
   opacity: 1;
   font-weight: 400;
 }
+
 .nav-links:hover{
   opacity: 1;
 }
 
 @media (max-width:991px){
-  .navbar-logo{
-    font-size: 1.2rem;
-  }
-
   .menu-icon{
     display: block;
     cursor: pointer;

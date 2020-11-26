@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './Navbar.css'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export class Navbar extends Component {
   constructor(props) {
@@ -24,8 +24,7 @@ export class Navbar extends Component {
           name: 'Contact',
           to: '/contact'
         }
-      ],
-      activeMenu: 0
+      ]
     }
   }
 
@@ -41,15 +40,8 @@ export class Navbar extends Component {
     })
   }
 
-  handleActiveMenu = (id) => {
-    this.setState({
-      activeMenu: id,
-      click: false
-    })
-  }
-
   render() {
-    const { click, menu, activeMenu } = this.state;
+    const { click, menu } = this.state;
 
     return (
       <>
@@ -65,9 +57,9 @@ export class Navbar extends Component {
               {menu.map((val, index) => {
                 return (
                   <li key={index} className="nav-item">
-                    <Link to={val.to} className={index === activeMenu ? 'nav-links active' : 'nav-links'} onClick={()=>this.handleActiveMenu(index)}>
+                    <NavLink exact to={val.to} className='nav-links' onClick={()=>this.closeMenu()}>
                       {val.name}
-                    </Link>
+                    </NavLink>
                   </li>           
                 )
               })}

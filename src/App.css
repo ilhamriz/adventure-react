@@ -8,11 +8,13 @@
 
 body{
   background-color: #020B10;
+  color: white;
 }
 
 .navbar-container,
 .hero-container,
-.main-container{
+.main-container,
+.sponsor-container{
   width: 85vw;
   max-width: 1300px;
 }
@@ -22,4 +24,47 @@ body{
 .sponsor-title{  
   font-family: 'Butler', serif;
   font-display: swap;
+}
+
+.main, .sponsor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.main-container, .sponsor-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-titles, .sponsor-titles{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.main-title, .sponsor-title{
+  font-size: 40px;
+  margin-top: .5rem;
+}
+
+.main-titles p, .sponsor-titles p{
+  color: #4D868C;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 768px){  
+  .main-title, .sponsor-title{
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 500px){  
+  .main-titles, .sponsor-titles{
+    font-size: 14px;
+  }
+  .main-title, .sponsor-title{
+    font-size: 28px;
+  }
 }
