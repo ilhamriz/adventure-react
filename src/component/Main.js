@@ -5,7 +5,7 @@ import {des1,des2,des3,des4} from '../images'
 
 function Main() {
   return (
-    <div className='main'>
+    <div className='main' id='main'>
       <div className="main-container">
         <div className="main-titles">
           <p>LET'S MAKE MEMORY</p>

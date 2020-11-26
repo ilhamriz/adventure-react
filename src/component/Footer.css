@@ -1,0 +1,49 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 100px 0;
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.footer-logo{
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-right: 50px;
+}
+
+.footer-sosmeds{
+  display: flex;
+  align-items: center;
+}
+
+.footer-sosmeds a{
+  display: flex;
+  align-items: center;
+}
+
+.footer-sosmeds a:not(:last-child){
+  margin-right: 40px;
+}
+
+@media (max-width:768px){
+  .footer-container{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-logo{
+    order: -1;
+    margin: 0 0 1rem 0;
+  }
+
+  .footer-sosmeds{
+    margin-top: 1.5rem;
+  }
+}

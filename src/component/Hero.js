@@ -9,7 +9,7 @@ function Hero() {
       <img src={heroImg} alt="" className="hero-image"/>
       <div className='hero-container'>
         <h1 className='hero-title'>Discover the most beautiful places in the world</h1>
-        <Button> Get Started </Button>
+        <Button to='/destination'>Get Started</Button>
       </div>
     </div>
   )

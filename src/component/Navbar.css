@@ -6,6 +6,12 @@
   height: 80px;
   z-index: 999;
   position: fixed;
+  transition: all .3s ease;
+}
+
+.navbar.scroll{
+  background-color: rgba(2, 11, 16, .5);
+  backdrop-filter: blur(5px);
 }
 
 .navbar-container{
@@ -66,7 +72,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #020B10;
+    background-color: #020b10;
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -74,8 +80,7 @@
     right: -100vw;
     z-index: -1;
     opacity: 0;
-    font-size: 1.5rem;
-    transition: all .5s ease-in-out;
+    transition: all .4s ease-in-out;
   }
 
   .nav-menu.active{

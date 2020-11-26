@@ -7,6 +7,11 @@ import sponsor1 from './sponsor-1.png'
 import sponsor2 from './sponsor-2.png'
 import sponsor3 from './sponsor-3.png'
 import sponsor4 from './sponsor-4.png'
-import book from './Book.png'
+import book from './book.png'
+import ig from './instagram.svg'
+import gh from './github.svg'
+import dr from './dribbble.svg'
 
-export { heroImg, des1, des2, des3, des4, sponsor1, sponsor2, sponsor3, sponsor4, book };
+export {
+  heroImg, des1, des2, des3, des4, sponsor1, sponsor2, sponsor3, sponsor4, book, ig, gh, dr
+};

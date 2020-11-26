@@ -7,6 +7,7 @@ export class Navbar extends Component {
     super(props);
     this.state = {
       click: false,
+      scroll: false,
       menu: [
         {
           name: 'Home',
@@ -28,6 +29,24 @@ export class Navbar extends Component {
     }
   }
 
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll = () => {
+    const scrollLength = document.documentElement.scrollTop;
+    if (scrollLength > 0) {
+      this.setState({
+        scroll: true
+      })
+    }
+    else {
+      this.setState({
+        scroll: false
+      })
+    }
+  }
+
   handleMenuIcon = () => {
     this.setState({
       click : !this.state.click
@@ -41,11 +60,11 @@ export class Navbar extends Component {
   }
 
   render() {
-    const { click, menu } = this.state;
+    const { click, menu, scroll } = this.state;
 
     return (
       <>
-        <nav className='navbar'>
+        <nav className={scroll ? 'navbar scroll' : 'navbar'}>
           <div className="navbar-container">
             <Link to='/' className='navbar-logo' onClick={() => this.closeMenu()}>
               Adventure.

@@ -4,6 +4,7 @@ import Navbar from './component/Navbar'
 import Home from './component/pages/Home';
 import Destination from './component/pages/Destination';
 import ScrollToTop from './component/ScrollToTop';
+import Footer from './component/Footer';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' exact component={Home}/>
           <Route path='/destination' component={Destination}/>
         </Switch>
+        <Footer />
       </Router>
     </>
   );
