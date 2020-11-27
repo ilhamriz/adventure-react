@@ -5,6 +5,8 @@ import Home from './component/pages/Home';
 import Destination from './component/pages/Destination';
 import ScrollToTop from './component/ScrollToTop';
 import Footer from './component/Footer';
+import Gallery from './component/pages/Gallery';
+import Contact from './component/pages/Contact';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home}/>
           <Route path='/destination' component={Destination}/>
+          <Route path='/gallery' component={Gallery}/>
+          <Route path='/contact' component={Contact}/>
         </Switch>
         <Footer />
       </Router>

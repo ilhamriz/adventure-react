@@ -16,24 +16,11 @@ body{
 .main-container,
 .sponsor-container,
 .book-container,
-.footer-container{
+.footer-container,
+.hero-other-container,
+.gallery-container{
   width: 85vw;
   max-width: 1300px;
-}
-
-.hero-title,
-.main-title,
-.sponsor-title,
-.book-title{
-  font-family: 'Butler', serif;
-  font-display: swap;
-}
-
-.main, .sponsor{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 150px;
 }
 
 .main-container, .sponsor-container, .book-container{
@@ -42,32 +29,49 @@ body{
   align-items: center;
 }
 
+.hero-title,
+.main-title,
+.sponsor-title,
+.book-title,
+.all-title{
+  font-family: 'Butler', serif;
+  font-display: swap;
+}
+
+.main, .sponsor, .gallery{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
 .main-titles, .sponsor-titles{
   text-align: center;
   margin-bottom: 4rem;
 }
 
-.main-title, .sponsor-title{
+.main-title, .sponsor-title, .all-title{
   font-size: 40px;
   margin-top: .5rem;
 }
 
-.main-titles p, .sponsor-titles p{
+.main-titles p, .sponsor-titles p, .all-titles p{
   color: #4D868C;
   letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px){  
-  .main-title, .sponsor-title{
+  .main-title, .sponsor-title, .all-title{
     font-size: 32px;
   }
 }
 
 @media (max-width: 500px){  
-  .main-titles, .sponsor-titles{
+  .main-titles, .sponsor-titles, .all-titles{
     font-size: 14px;
   }
-  .main-title, .sponsor-title{
+  .main-title, .sponsor-title, .all-title{
     font-size: 28px;
   }
 }

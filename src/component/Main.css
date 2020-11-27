@@ -20,18 +20,3 @@
     margin: 0;
   }
 }
-
-@media (max-width: 768px){  
-  .main-title{
-    font-size: 32px;
-  }
-}
-
-@media (max-width: 500px){  
-  .main-titles{
-    font-size: 14px;
-  }
-  .main-title{
-    font-size: 28px;
-  }
-}

@@ -8,10 +8,25 @@ import sponsor2 from './sponsor-2.png'
 import sponsor3 from './sponsor-3.png'
 import sponsor4 from './sponsor-4.png'
 import book from './book.png'
+import des from './destination.jpg'
+import gal from './gallery.jpg'
 import ig from './instagram.svg'
 import gh from './github.svg'
 import dr from './dribbble.svg'
+import gal1 from './gallery/gal-1.jpg'
+import gal2 from './gallery/gal-2.jpg'
+import gal3 from './gallery/gal-3.jpg'
+import gal4 from './gallery/gal-4.jpg'
+import gal5 from './gallery/gal-5.jpg'
+import gal6 from './gallery/gal-6.jpg'
+import gal7 from './gallery/gal-7.jpg'
+import gal8 from './gallery/gal-8.jpg'
+import gal9 from './gallery/gal-9.jpg'
+import gal10 from './gallery/gal-10.jpg'
+import gal11 from './gallery/gal-11.jpg'
+import gal12 from './gallery/gal-12.jpg'
 
 export {
-  heroImg, des1, des2, des3, des4, sponsor1, sponsor2, sponsor3, sponsor4, book, ig, gh, dr
+  heroImg, des1, des2, des3, des4, sponsor1, sponsor2, sponsor3, sponsor4, book, ig, gh, dr, des, gal,
+  gal1,gal2,gal3,gal4,gal5,gal6,gal7,gal8,gal9,gal10,gal11,gal12
 };

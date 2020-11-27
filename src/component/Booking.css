@@ -25,3 +25,9 @@
     font-size: 32px;
   }
 }
+
+@media (max-width: 500px){
+  .book-title{
+    font-size: 28px;
+  }
+}

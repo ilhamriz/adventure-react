@@ -8,9 +8,9 @@ function Home() {
   return (
     <>
       <Hero />
-      <Main />
+      <Main title='true'/>
       <Sponsor />
-      <Booking />
+      <Booking btn='true' title='Can’t wait for a vacation?'/>
     </>
   )
 }
