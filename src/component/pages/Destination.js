@@ -1,5 +1,4 @@
 import React from 'react'
-import Booking from '../Booking'
 import HeroOthers from '../HeroOthers'
 import Main from '../Main'
 import {des} from '../../images'
