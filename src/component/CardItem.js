@@ -4,7 +4,7 @@ import './CardItem.css'
 
 function CardItem(props) {
   return (
-    <Link to='/destination' className='card'>
+    <Link to='/destination' className='card' data-aos='fade-up'>
       <img src={props.src} alt={props.name} />
       <div className="card-info">
         <div className="card-info-title">

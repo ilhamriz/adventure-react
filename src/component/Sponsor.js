@@ -7,20 +7,20 @@ function Sponsor() {
     <div className='sponsor'>
       <div className="sponsor-container">        
         <div className="sponsor-titles">
-          <p>THANK YOU</p>
-          <h2 className='sponsor-title'>To our sponsors and partners</h2>
+          <p data-aos='fade-up'>THANK YOU</p>
+          <h2 data-aos='fade-up' className='sponsor-title'>To our sponsors and partners</h2>
         </div>
         <div className="sponsor-items">
-          <div className="sponsor-img-wrapper">
+          <div className="sponsor-img-wrapper" data-aos='fade-up'>
             <img src={sponsor1} alt=""/>
           </div>
-          <div className="sponsor-img-wrapper">
+          <div className="sponsor-img-wrapper" data-aos='fade-up'>
             <img src={sponsor2} alt=""/>
           </div>
-          <div className="sponsor-img-wrapper">
+          <div className="sponsor-img-wrapper" data-aos='fade-up'>
             <img src={sponsor3} alt=""/>
           </div>
-          <div className="sponsor-img-wrapper">
+          <div className="sponsor-img-wrapper" data-aos='fade-up'>
             <img src={sponsor4} alt=""/>
           </div>
         </div>

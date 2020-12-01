@@ -9,8 +9,8 @@ function Main(props) {
       <div className="main-container">
         {props.title === 'true' ?
           <div className="main-titles">
-            <p>LET'S MAKE MEMORY</p>
-            <h2 className='main-title'>With our favorite destination</h2>
+            <p data-aos='fade-up'>LET'S MAKE MEMORY</p>
+            <h2 data-aos='fade-up' className='main-title'>With our favorite destination</h2>
           </div>
           : ''}
         <div className="main-cards">

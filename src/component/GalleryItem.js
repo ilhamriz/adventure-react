@@ -37,28 +37,28 @@ class GalleryItem extends Component {
           <div className="column">
             {flex4.map((val,idx) => {
               return (
-                <img key={idx} src={val} alt="Gallery Images"/>                
+                <img key={idx} src={val} alt="Gallery Images" data-aos='fade-up' />                
               )
             })}
           </div>
           <div className="column">
             {flex2.map((val,idx) => {
               return (
-                <img key={idx} src={val} alt="Gallery Images"/>                
+                <img key={idx} src={val} alt="Gallery Images" data-aos='fade-up' />                
               )
             })}
           </div>
           <div className="column">
             {flex3.map((val,idx) => {
               return (
-                <img key={idx} src={val} alt="Gallery Images"/>                
+                <img key={idx} src={val} alt="Gallery Images" data-aos='fade-up' />                
               )
             })}
           </div>
           <div className="column">
             {flex1.map((val,idx) => {
               return (
-                <img key={idx} src={val} alt="Gallery Images"/>                
+                <img key={idx} src={val} alt="Gallery Images" data-aos='fade-up' />                
               )
             })}
             </div>
