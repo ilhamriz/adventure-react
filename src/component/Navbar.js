@@ -11,19 +11,19 @@ export class Navbar extends Component {
       menu: [
         {
           name: 'Home',
-          to: '/'
+          to: '/adventure-react'
         },
         {
           name: 'Destination',
-          to: '/destination'
+          to: '/adventure-react/destination'
         },
         {
           name: 'Gallery',
-          to: '/gallery'
+          to: '/adventure-react/gallery'
         },
         {
           name: 'Contact',
-          to: '/contact'
+          to: '/adventure-react/contact'
         }
       ]
     }
@@ -66,7 +66,7 @@ export class Navbar extends Component {
       <>
         <nav className={scroll ? 'navbar scroll' : 'navbar'}>
           <div className="navbar-container">
-            <Link to='/' className='navbar-logo' onClick={() => this.closeMenu()}>
+            <Link to='/adventure-react' className='navbar-logo' onClick={() => this.closeMenu()}>
               Adventure.
             </Link>
             <div className="menu-icon" onClick={() => this.handleMenuIcon()}>

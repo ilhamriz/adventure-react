@@ -16,10 +16,10 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home}/>
-          <Route path='/destination' component={Destination} />
-          <Route path='/gallery' component={Gallery}/>
-          <Route path='/contact' component={Contact}/>
+          <Route path='/adventure-react' exact component={Home}/>
+          <Route path='/adventure-react/destination' component={Destination} />
+          <Route path='/adventure-react/gallery' component={Gallery}/>
+          <Route path='/adventure-react/contact' component={Contact}/>
         </Switch>
         <Footer />
       </Router>
